@@ -118,4 +118,9 @@ git commit --amend -m "Updated message for the previous commit"
  ```
  ### гораздо более удобный и безопасный способ отмены изменений.
 
+ ```sh 
+ git revert 1af17e
+ ```
+ ## Откат заданного коммита
 
+ 
