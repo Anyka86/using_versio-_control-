@@ -123,4 +123,14 @@ git commit --amend -m "Updated message for the previous commit"
  ```
  ## Откат заданного коммита
 
- 
+  ```sh
+  git merge existing_branch_name
+  ```
+  ## Слияние двух веток
+
+  ```sh
+  git merge --no-ff existing_branch_name
+  ```
+  ### Указанная команда объединит заданную ветку с основной и произведёт коммит слияния. Это необходимо для фиксации всех слияний в вашем репозитории
+
+  
